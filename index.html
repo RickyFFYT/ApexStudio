@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Designs Studio | Pixel-Perfect Visuals</title>
+    <meta name="description" content="Apex Designs Studio - Pixel-perfect visuals, crafted with retro soul.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Header -->
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#home" class="logo-modern">
+                    <div class="logo-icon">
+                        <div class="pixel-shape"></div>
+                        <div class="pixel-shape p2"></div>
+                        <div class="pixel-shape p3"></div>
+                    </div>
+                    <div class="logo-text-group">
+                        <span class="logo-main">APEX</span>
+                        <span class="logo-sub">DESIGNS</span>
+                    </div>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg">
+                <div class="grid-lines"></div>
+                <div class="stars"></div>
+            </div>
+            <div class="container hero-content fade-in-up">
+                <h1 class="glitch-text" data-text="Apex Designs Studio">Apex Designs Studio</h1>
+                <p class="subtitle">Pixel-perfect visuals, crafted with retro soul.</p>
+                <a href="#portfolio" class="btn btn-primary">View Portfolio <span class="pixel-sparkle">✨</span></a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Us <span class="pixel-divider">_</span></h2>
+                <div class="about-grid">
+                    <div class="about-image-wrapper fade-in-left">
+                        <div class="pixel-frame">
+                            <img src="logo.jpeg" alt="Apex Designs Studio Logo" class="about-logo">
+                        </div>
+                    </div>
+                    <div class="about-text fade-in-right">
+                        <div class="retro-box">
+                            <h3>Who We Are</h3>
+                            <p>We are a creative studio obsessed with the intersection of nostalgia and modern design. Born from the love of 8-bit aesthetics and clean typography, Apex Designs Studio brings a unique flavor to every project.</p>
+                            <p>Our focus is on creating memorable identities, striking album covers, and social media graphics that pop off the screen with a retro-futuristic glow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title">Services <span class="pixel-divider">_</span></h2>
+                <div class="services-grid">
+                    <div class="service-card fade-in-up">
+                        <div class="service-icon">🎨</div>
+                        <h3>Branding & Logos</h3>
+                        <p>Unique visual identities that tell your story with a pixelated twist.</p>
+                    </div>
+                    <div class="service-card fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="service-icon">📱</div>
+                        <h3>Social Media Kits</h3>
+                        <p>Cohesive templates and graphics to level up your online presence.</p>
+                    </div>
+                    <div class="service-card fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="service-icon">🎵</div>
+                        <h3>Album Art</h3>
+                        <p>Striking cover art for singles, EPs, and albums that matches your sound.</p>
+                    </div>
+                    <div class="service-card fade-in-up" style="transition-delay: 0.3s;">
+                        <div class="service-icon">🖨️</div>
+                        <h3>Print Design</h3>
+                        <p>Posters, flyers, and merch designs ready for the physical world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <h2 class="section-title">Portfolio <span class="pixel-divider">_</span></h2>
+                
+                <div class="portfolio-filter fade-in-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="covers">Covers</button>
+                    <button class="filter-btn" data-filter="social">Social</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item fade-in-up" data-category="branding">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/neonBrand.png" alt="Neon Brand Identity" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Neon Brand</h4>
+                                <p>Identity Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item fade-in-up" data-category="covers">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/Synthwave.png" alt="Synthwave EP Cover" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Synthwave EP</h4>
+                                <p>Album Art</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item fade-in-up" data-category="social">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/streamPack.png" alt="Stream Pack Graphics" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Stream Pack</h4>
+                                <p>Twitch Graphics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item fade-in-up" data-category="branding">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/retrocafe.png" alt="Retro Cafe Logo" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Retro Cafe</h4>
+                                <p>Logo Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5 -->
+                    <div class="portfolio-item fade-in-up" data-category="covers">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/cyberpunk.png" alt="Cyber Funk Cover" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Cyber Funk</h4>
+                                <p>Single Cover</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item fade-in-up" data-category="social">
+                        <div class="portfolio-thumb">
+                            <img src="portfolio/techtalk.png" alt="Tech Talk Thumbnail" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Tech Talk</h4>
+                                <p>YouTube Thumbnails</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact <span class="pixel-divider">_</span></h2>
+                <p class="contact-intro fade-in-up">Ready to level up your visuals? Reach out!</p>
+                
+                <div class="contact-terminal fade-in-up">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">contact_info.exe</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">></span> <span class="cmd">display phone_number</span>
+                        </div>
+                        <div class="terminal-output">
+                            <a href="tel:5616952154" class="contact-link">561 695 2154</a>
+                            <button class="copy-btn" data-copy="5616952154" aria-label="Copy Phone Number">
+                                <span class="icon">📋</span>
+                            </button>
+                        </div>
+                        
+                        <div class="terminal-line">
+                            <span class="prompt">></span> <span class="cmd">display email_address</span>
+                        </div>
+                        <div class="terminal-output">
+                            <a href="mailto:jahapexdesignsstudios@gmail.com" class="contact-link">jahapexdesignsstudios@gmail.com</a>
+                            <button class="copy-btn" data-copy="jahapexdesignsstudios@gmail.com" aria-label="Copy Email">
+                                <span class="icon">📋</span>
+                            </button>
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="prompt">></span> <span class="cmd">initiate_message_sequence...</span>
+                        </div>
+                        
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Player One" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="player1@game.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Insert coin to start..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Send Message <span class="blink">_</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Apex Designs Studio. All rights reserved.</p>
+            <div class="footer-icon">👾 <span class="heart">❤️</span> 👾</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
